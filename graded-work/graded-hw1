@@ -1,0 +1,39 @@
+/*** correctness ***/
+
+/* problem 1  */
+
+valid_room         10/10
+
+/* problem 2  */
+
+rotary_pulses_r    8/ 8
+rotary_pulses_i    8/ 8
+
+/* problem 3 */
+
+nth_harmonic       8/ 8
+least_ge_harmonic  8/ 8
+
+/* problem 4 */
+
+checkerboard       10/10
+
+/*** style ***/
+
+/* code layout                         6/ 8 */
+
+/* identifiers are well named          6/ 6 */
+
+/* functions are well designed         /   */ /* n/a this week */
+/* code is well factored               6/ 6 */ /* e.g., free of copied-and-pasted blocks of code */
+
+/* code is written clearly             8/ 8 */ /* i.e., avoid Byzantine logic */
+/* code is efficient                   6/ 6 */ /* i.e., avoid blatant inefficiencies */
+
+/* adequate tests (evidence)           10/10 */
+/* svn used correctly                  3/ 4 */
+
+/* _total-score_                      97/100 */
+
+/* graded by zoe chitty */
+

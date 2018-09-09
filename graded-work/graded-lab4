@@ -1,0 +1,37 @@
+/* ====== correctness ======  */
+
+/* - bucket_size          / 5/5 */
+/* - bucket_contains      / 2/5 incorrect, same hash value does not guarantee same string */
+/* - bucket_free          / 5/5 */
+
+/* - good_hash            / 5/5 */
+/* - bad_hash             / 5/5 */
+
+/* - htbl_new             / 5/5 */
+/* - htbl_n_entries       / 5/5 */
+
+/* - htbl_load_factor     / 5/5 */
+/* - htbl_max_bucket      / 5/5 */
+/* - htbl_ins             / 5/5 */
+
+/* - htbl_member          / 5/5 */
+/* - htbl_show            / 5/5 */
+/* - htbl_free            / 4/5 missing free(hs->buckets); */
+
+/* === style === */
+
+/* code layout                         / 5/5 */
+/* identifiers are well named          / 5/5 */
+
+/* functions are well designed         / 6/6 */
+/* code is well factored               / 6/6 */
+
+/* code is written clearly             / 6/6 */
+/* code is efficient                   / 6/6 */
+
+/* svn used correctly                  / 1/1 */
+
+/* _total-score_                      / 96/100 */
+
+/* graded by ZEWEI CHU */
+

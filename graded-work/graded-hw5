@@ -1,0 +1,44 @@
+/*** correctness ***/
+
+list_new        3 / 3
+list_free       3 / 3
+list_show       3 / 3
+
+add_to_front    4 / 4
+find_first      4 / 4
+
+get_first       4 / 4
+get_last        4 / 4
+get_at_index    4 / 4
+
+insert_after    5 / 5
+insert_before   5 / 5
+insert_at_index 5 / 5
+
+remove_first    5 / 5
+remove_all      5 / 5
+
+act_on_strings  5 / 5
+filter          5 / 5
+
+/*** style ***/
+
+/* code layout                        5 / 5 */
+/* identifiers are well named         5 / 5 */
+
+/* functions are well designed        5 / 5 */ 
+/* code is well factored              2 / 5 */ /* e.g., free of copied-and-pasted blocks of code */
+
+/* code is written clearly            5 / 5 */ /* i.e., avoid Byzantine logic */
+/* code is efficient                  2 / 5 */ /* i.e., avoid blatant inefficiencies */
+
+/* adequate tests (evidence)          4 / 5 */
+/* svn used correctly                 1 / 1 */
+
+/* _total-score_                      93/100 */
+
+/* graded by Mihai Andreescu */
+
+[-1]: not testing enough corner cases
+[-3]: remove_all is very inefficient
+[-3]: lots of duplicated code in insert_after, insert_before and insert_at_index.

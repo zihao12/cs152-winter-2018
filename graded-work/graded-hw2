@@ -1,0 +1,43 @@
+/*** correctness ***/
+
+xor              / 4
+
+show_array       / 4
+
+add_to_all       / 4
+
+occurrences_of   / 4
+
+any_odd          / 4
+
+reverse          / 6
+
+min              / 4
+
+max              / 4
+
+equal            / 6
+
+int_binary       / 6
+
+int_quaternary   / 6
+
+/*** style ***/
+
+/* code layout                         / 8 */
+/* identifiers are well named          / 6 */
+
+/* functions are well designed         /   */ /* n/a this week */
+/* code is well factored               / 6 */ /* e.g., free of copied-and-pasted blocks of code */
+
+/* code is written clearly             / 8 */ /* i.e., avoid Byzantine logic */
+/* code is efficient                   / 6 */ /* i.e., avoid blatant inefficiencies */
+
+/* adequate tests (evidence)           /10 */
+/* svn used correctly                  / 4 */
+
+
+
+/* _total-score_                      100/100 */ Good work!
+
+/* graded by Shangxi Zhang */

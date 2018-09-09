@@ -1,0 +1,23 @@
+/*** correctness ***/
+
+/* expt            8 / 8 */
+/* ss              8 / 8 */
+/* show_binary     8 / 8 */
+
+/*** style ***/
+
+/* code layout                6 / 6 */
+/* code is clearly written    6 / 6 */
+/* code is efficient          5 / 6 
+ 
+   Your ss() function is still performing linear time calculations.
+ */
+/* adequate tests (evidence)  6 / 6 */
+/* svn used correctly         1 / 2 
+ 
+   Please remove executables before submission next time.
+ */
+
+/* _total-score_              48/50 */
+
+/* graded by Yan */

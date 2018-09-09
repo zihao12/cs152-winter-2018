@@ -1,0 +1,47 @@
+/*** correctness ***/
+
+list_new        3 / 3
+list_free       5 / 5
+
+node_show       3 / 3
+list_show       3 / 3
+
+find_first      4 / 4
+
+get_first       3 / 3
+get_last        3 / 3
+
+get_next        3 / 3
+get_previous    3 / 3
+
+get_at_index    4 / 4
+
+insert_after    6 / 6
+insert_before   6 / 6
+insert_at_index 6 / 6
+
+remove_first    6 / 6
+remove_all      6 / 6
+
+/*** style ***/
+
+/* code layout                        2 / 5 */
+/* identifiers are well named         5 / 5 */
+
+/* functions are well designed        5 / 5 */ 
+/* code is well factored              5 / 5 */ /* e.g., free of copied-and-pasted blocks of code */
+
+/* code is written clearly            5 / 5 */ /* i.e., avoid Byzantine logic */
+/* code is efficient                  5 / 5 */ /* i.e., avoid blatant inefficiencies */
+
+/* adequate tests (evidence)          5 / 5 */
+/* svn used correctly                 1 / 1 */
+
+/* _total-score_                      91/100 */
+
+/* graded by Mihai Andreescu */
+
+[-3]: improper (inconsistent) indentation
+[-3]: large chunks of duplicated code instead of using your own searching
+      functions
+[-3]: remove_all runs in O(N^2).

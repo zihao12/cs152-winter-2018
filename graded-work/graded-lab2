@@ -1,0 +1,17 @@
+/*** correctness ***/
+
+/* dist            / 8 */
+/* draw_waves      /16 */
+
+/*** style ***/
+
+/* code layout                / 6 */
+/* code is clearly written    / 6 */
+/* code is efficient          / 6 */
+/* adequate tests (evidence)  / 6 */
+/* svn used correctly         / 2 */
+
+/* _total-score_              50/50 */
+
+/* graded by Yan Liu */
+/* regrade ams 3/20 */

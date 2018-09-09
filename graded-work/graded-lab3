@@ -1,0 +1,22 @@
+/*** correctness ***/
+
+/* works without arguments (default)  6 / 6 */
+/* argument parsing works             6 / 6 */
+/* rgb waves correctly altered        6 / 6 */
+
+/* image size correctly altered       6 / 6 */
+/* x offset                           4 / 4 */
+/* y offset                           4 / 4 */
+
+/*** style ***/
+
+/* code layout                8 / 8 */
+/* code is clearly written    7 / 8 */
+
+GRADER: please use 'int main()' instead of 'main()'
+
+/* code is efficient          8 / 8 */
+
+/* _total-score_              49/50 */
+
+/* graded by Yan Liu */

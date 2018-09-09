@@ -1,0 +1,27 @@
+HW 6, CMSC 15200, Winter 2018
+
+/* ====== correctness ======  */
+
+push      7/ 7
+pop       7/ 7
+
+enqueue   7/ 7
+dequeue   7/ 7
+
+BFS      11/11
+DFS      11/11
+
+/* _total-score_        50/50 */
+
+Comments:
+
+(like lab 7...)
+
+HW 6 was graded for the most part automatically. As such there is no
+style portion to your evaluation. In the cases where code was not
+working, I spent some time investigating the problem. Please come see
+me after break if you would like more detail. -ams
+
+
+
+(wangzh) Full credit -- good job!

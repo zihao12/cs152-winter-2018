@@ -1,0 +1,45 @@
+/*** correctness ***/
+
+str_duplicate      / 5
+cat                / 5
+catw               / 5
+catw_arr           / 5
+
+point_new          / 2
+point_show         / 2
+
+segment_new        / 2
+segment_show       / 2
+segment_free       / 2
+
+circle_new         / 2
+circle_show        / 2
+circle_free        / 2
+
+segment_length     / 4
+
+circle_area        / 4
+contains           / 4
+
+horiz_diameter     / 4
+diameter_through   / 4 
+overlap            / 4
+circle_translate   / 4
+
+/*** style ***/
+
+/* code layout                         / 5 */
+/* identifiers are well named          / 5 */
+
+/* functions are well designed         / 5 */ 
+/* code is well factored               / 5 */ /* e.g., free of copied-and-pasted blocks of code */
+
+/* code is written clearly             / 5 */ /* i.e., avoid Byzantine logic */
+/* code is efficient                   / 5 */ /* i.e., avoid blatant inefficiencies */
+
+/* adequate tests (evidence)           / 5 */
+/* svn used correctly                  / 1 */
+
+/* _total-score_                      100/100 */ Good work
+
+/* graded by shangxizhang */

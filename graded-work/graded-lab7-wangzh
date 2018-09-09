@@ -1,0 +1,32 @@
+Lab 7, CMSC 15200, Winter 2018
+
+/* ====== correctness ======  */
+
+/* --- vcards --- */
+
+/* - vcard_new           6/ 6 */
+/* - vcard_show          5/ 5 */
+
+/* --- bsts --- */
+
+/* - bst_singleton       6/ 6 */
+/* - bst_insert          7/ 7 */
+
+/* - bst_num_entries     6/ 6 */
+/* - bst_height          6/ 6 */
+
+/* - bst_search          7/ 7 */
+/* - bst_prefix_show     7/ 7 */
+
+/* _total-score_        50/50 */
+
+Comments:
+
+Lab 7 was graded for the most part automatically. Admittedly, it was a
+coarse-grained process, and done as quickly as possible. As such there
+is no style portion to your evaluation. In the cases where code was
+not working, I spent some time investigating the problem. Please come
+see me after break if you would like more detail. -ams
+
+
+Full credit for wangzh; nice work!
